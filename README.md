@@ -15,3 +15,9 @@ Sentiment analysis is the process of determining whether a piece of writing is p
 - **NLTK / SpaCy**: For text preprocessing and NLP tasks.
 - **Pandas & NumPy**: Data manipulation and numerical computations.
 - **Matplotlib & Seaborn**: For visualizations.
+
+## 🧠 Model Pipeline
+**The model is built using Scikit-learn and includes the following steps:**
+- Text Preprocessing: Tokenization, removing stop words, and converting text to lowercase.
+- TF-IDF Vectorization: Converts the text data into numerical features.
+- Classification: Uses a logistic regression classifier to predict the sentiment (positive/negative).
